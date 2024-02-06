@@ -2,6 +2,9 @@ name: Build Sample Xcode iOS Application for demonstration
 
 on:
   pull_request:
+    types:
+      - opened
+      - synchronize
 
 permissions:
   actions: write
